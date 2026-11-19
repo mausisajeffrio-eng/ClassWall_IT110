@@ -1,0 +1,186 @@
+
+/* GENERAL SETTINGS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    margin: 0;
+    padding: 30px 15px;
+    color: #1e293b;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #64748b;
+}
+
+/* VISIT COUNTER */
+.visit-counter {
+    background: #eff6ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* SECTION HEADINGS */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+
+/* FORM ELEMENTS */
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    border: 1px solid #cbd5e1;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #2563eb;
+}
+
+textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* REMEMBER CHECKBOX */
+.remember-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.remember-label input {
+    width: auto;
+    margin: 0;
+}
+
+/* BUTTONS */
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* SEARCH SECTION */
+.show-all {
+    display: inline-block;
+    color: #2563eb;
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.show-all:hover {
+    text-decoration: underline;
+}
+
+/* MESSAGE WALL */
+.message {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.message h3 {
+    margin-top: 0;
+    color: #2563eb;
+}
+
+.message p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #64748b;
+    font-size: 12px;
+}
+
+.no-messages {
+    color: #64748b;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+}
